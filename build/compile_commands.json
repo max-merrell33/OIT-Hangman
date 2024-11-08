@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/maxmerrell/VSCode/hangman/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/Hangman.dir/main.cpp.o -c /Users/maxmerrell/VSCode/hangman/main.cpp",
+  "file": "/Users/maxmerrell/VSCode/hangman/main.cpp",
+  "output": "CMakeFiles/Hangman.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/maxmerrell/VSCode/hangman/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/Hangman.dir/src/display.cpp.o -c /Users/maxmerrell/VSCode/hangman/src/display.cpp",
+  "file": "/Users/maxmerrell/VSCode/hangman/src/display.cpp",
+  "output": "CMakeFiles/Hangman.dir/src/display.cpp.o"
+},
+{
+  "directory": "/Users/maxmerrell/VSCode/hangman/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -o CMakeFiles/Hangman.dir/src/game.cpp.o -c /Users/maxmerrell/VSCode/hangman/src/game.cpp",
+  "file": "/Users/maxmerrell/VSCode/hangman/src/game.cpp",
+  "output": "CMakeFiles/Hangman.dir/src/game.cpp.o"
+}
+]

@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Hangman.dir/main.cpp.o"
+  "CMakeFiles/Hangman.dir/main.cpp.o.d"
+  "CMakeFiles/Hangman.dir/src/display.cpp.o"
+  "CMakeFiles/Hangman.dir/src/display.cpp.o.d"
+  "CMakeFiles/Hangman.dir/src/game.cpp.o"
+  "CMakeFiles/Hangman.dir/src/game.cpp.o.d"
+  "Hangman"
+  "Hangman.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Hangman.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

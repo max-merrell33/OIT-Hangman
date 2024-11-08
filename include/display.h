@@ -6,6 +6,8 @@
 
 using namespace std;
 
+void displayStats(vector<char> guesses, int correct, int incorrect);
+
 //TODO ADD comments
 void displayVisual(int livesLeft, vector<char> guesses);
 

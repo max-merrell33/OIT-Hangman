@@ -32,8 +32,9 @@ struct GameStats
     }
 
 };
-
 GameStats game;
+
+
 
 string getRandomWord() {
     srand(time(0));

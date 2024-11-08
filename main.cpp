@@ -11,7 +11,12 @@ void beforeGameMenu(string prompt) {
 
     char userChoice;
 
-    cout << "Welcome to HANGMAN!" << endl << endl;
+    cout << "     HANG+" << endl;
+    cout << "     O   M" << endl;
+    cout << "    /|\\  A" << endl;
+    cout << "    / \\  N" << endl;
+    cout << "         !" << endl;
+    cout << "   =======" << endl << endl;
     cout << "[1] New Game" << endl;
     cout << "[2] How to Play" << endl;
     cout << "[3] Quit" << endl << endl;

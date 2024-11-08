@@ -1,3 +1,0 @@
-/Users/maxmerrell/VSCode/hangman/build/CMakeFiles/Hangman.dir
-/Users/maxmerrell/VSCode/hangman/build/CMakeFiles/edit_cache.dir
-/Users/maxmerrell/VSCode/hangman/build/CMakeFiles/rebuild_cache.dir

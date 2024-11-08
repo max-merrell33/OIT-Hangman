@@ -7,7 +7,7 @@
 void howToPlayMenu();
 
 void beforeGameMenu(string prompt) {
-    system("clear");
+    system("cls");
 
     char userChoice;
 

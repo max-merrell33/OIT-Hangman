@@ -130,7 +130,7 @@ void gameLoop() {
 }
 
 void postGameMenu(string postGamePrompt) {
-    system("clear");
+    system("cls");
 
     char userChoice;
 

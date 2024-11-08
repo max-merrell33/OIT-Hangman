@@ -133,7 +133,7 @@ void displayPrompt(string prompt) {
 }
 
 void displayAll(int livesLeft, string word, vector<char> guesses, string prompt, int correct, int incorrect) {
-    system("clear");
+    system("cls");
     displayStats(guesses, correct, incorrect);
     displayVisual(livesLeft, guesses);
     displayString(word, guesses);
@@ -141,9 +141,12 @@ void displayAll(int livesLeft, string word, vector<char> guesses, string prompt,
 }
 
 void displayHowToPlay() {
-    system("clear");
+    system("cls");
     //TODO 
-    cout << "THESE ARE THE INSTRUCTIONS" << endl << endl;
+    cout << "Welcome to HANGMAN!" << endl << endl;
+    cout << " - Guess letters and try to guess the word." << endl;
+    cout << " - The game will not end when the whole man is drawn." << endl;
+    cout << " - Keep guessing until you get the word!" << endl << endl;
     cout << "Press enter to go back to menu" << endl << endl;
 
 }

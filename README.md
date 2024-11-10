@@ -4,7 +4,8 @@ My name is Max Merrell and this is a Hangman game written in C++. This is my pro
 ---
 
 # How to run
-- Clone repository and `cd` into the directory
+- Clone repository and `cd` into the directory 
+    - Note: there is a large library included in the repository (more comments below) and the repository may take a while to clone
 - `.\setup.ps1`
     - This will add the library to the PATH variable for the current terminal instance
     - If you receive an error running the script, try running `Set-ExecutionPolicy -Scope Process Unrestricted`. This will allow you to run scripts in this instance of the terminal.
@@ -79,6 +80,14 @@ Hangman
 - I assumed that Windows machines had a preinstalled C++ compiler like the Mac/Linux systems do, and when I used a Windows machine and tried to compile I was unpleasantly surprised.
 - After doing some reading, I decided the easiest way to create a repository that included everything necessary to compile and run the code would be to include the MinGW library. I understand this makes the repository quite large and if I had more time, I would find a simpler that did not require such a large library in the directory. 
 
+---
+# Future Features:
+
+- Reorganize the before and after game menu so that the code to display the menus is located in display.cpp and the code is more uniformly organized
+- Learn more about MinGW and other libraries that make compiling C++ code easier and more efficient, reducing the size of the project
+- Create a way to keep score and/or average number of guesses over multiple different games
+- 2 player mode where one user inputs the word and the other player plays the game using the input word
+- This was a great project and I learned much while working on it!
 
 ---
 

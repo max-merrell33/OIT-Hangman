@@ -83,6 +83,7 @@ Hangman
 ---
 # Future Features:
 
+- The last step that I was doing when I ran out of time was the documentation of the code with comments. The first thing I would finish if I had more time would be the comments in the header files giving detailed descriptions about the functions. 
 - Reorganize the before and after game menu so that the code to display the menus is located in display.cpp and the code is more uniformly organized
 - Learn more about MinGW and other libraries that make compiling C++ code easier and more efficient, reducing the size of the project
 - Create a way to keep score and/or average number of guesses over multiple different games
@@ -97,6 +98,6 @@ Hangman
 - 40 minutes - writing game.cpp and writing the game logic
 - 30 minutes - writing main.cpp and finishing the before/after game menus
 - 70 minutes - configuring the program to run on Windows 
-- 30 minutes - write README and finish documentation
+- 40 minutes - write README and finish documentation
 
-**Total time: 3 hrs 50 mins**
+**Total time: 4 hrs**

@@ -44,7 +44,6 @@ string getRandomWord() {
     return wordList[randIndex];
 }
 
-// one char and not already guessed and a letter
 bool isValidInput(string guess, string* err) {
     // Checks that the input is one char
     if (guess.size() != 1) {

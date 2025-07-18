@@ -1,5 +1,5 @@
 # Summary
-My name is Max Merrell and this is a Hangman game written in C++. This is my project for my BYU OIT application
+My name is Max Merrell and this is a CLI Hangman game written in C++. This is my project for my BYU OIT application
 
 ---
 
@@ -42,7 +42,7 @@ Hangman
 
 # External Dependencies: 
 - mingw32 Library
-    - Allows the program to run GNU commands on windows and allows for the compilation of the program using 
+    - Allows the program to run GNU commands on windows and allows for the compilation of the program using 'make'
     - Running setup.ps1 adds the library to the PATH variable and allows the 'make' commands to run
 
 ---
@@ -78,7 +78,7 @@ Hangman
 ### Running on Windows
 - All my academic classes and my hobby projects have been coded on my Macbook or on a university linux machine. I am much more familair with the UNIX style systems and so I wrote this project on my Macbook in C++.
 - I assumed that Windows machines had a preinstalled C++ compiler like the Mac/Linux systems do, and when I used a Windows machine and tried to compile I was unpleasantly surprised.
-- After doing some reading, I decided the easiest way to create a repository that included everything necessary to compile and run the code would be to include the MinGW library. I understand this makes the repository quite large and if I had more time, I would find a simpler that did not require such a large library in the directory. 
+- After doing some reading, I decided the easiest way to create a repository that included everything necessary to compile and run the code would be to include the MinGW library. I understand this makes the repository quite large and if I had more time, I would find a simpler way that did not require such a large library in the directory. 
 
 ---
 # Future Features:
